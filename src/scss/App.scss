@@ -1,0 +1,39 @@
+@import '/Users/lordukthar/Downloads/reduxjs-redux-todos/node_module/material/checkbox/dist/mdc.checkbox.css';
+@import '/Users/lordukthar/Downloads/reduxjs-redux-todos/node_module/material/datatable/dist/mdc.data-table.css';
+
+
+@use "@material/icon-button";
+@use "@material/top-app-bar/mdc-top-app-bar";
+
+
+// Update Theme
+@use "@material/theme" with (
+  $primary: $primary-color,
+  $secondary: $secondary-color,
+  $background: $background-color,
+); 
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    
+    background: rebeccapurple;
+    color: white;
+    font-family: Helvetica;
+    font-weight: 300;
+}
+
+.navbar__title {
+    margin-right: auto;
+    font-size: 150%;
+    padding: 12px 16px;
+}
+
+.navbar__item {
+    padding: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+
