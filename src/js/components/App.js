@@ -7,6 +7,8 @@ import React from 'react'
   import Contact from './Contact';
   import Portfolio from './Portfolio';
 
+  import UserList from "./UserList";
+
 class App extends React.Component{
 
   render() {

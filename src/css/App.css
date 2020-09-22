@@ -1,5 +1,5 @@
-@import "/users/lordukthar/Downloads/reduxjs-redux-todos/node_modules/@material/checkbox/dist/mdc.checkbox.css";
-@import "/users/lordukthar/Downloads/reduxjs-redux-todos/node_modules/@material/data-table/dist/mdc.data-table.css";
+@import '/opt/axfood/portfolio/reactjs_portfolio/node_modules/@material/checkbox/dist/mdc.checkbox.css';
+@import '/opt/axfood/portfolio/reactjs_portfolio/node_modules/@material/data-table/dist/mdc.data-table.css';
 
 .navbar {
   display: flex;
