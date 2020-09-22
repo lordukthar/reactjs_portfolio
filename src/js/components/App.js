@@ -8,6 +8,7 @@ import React from 'react'
   import Portfolio from './Portfolio';
 
   import UserList from "./UserList";
+import StockList from "./StockList";
 
 class App extends React.Component{
 
@@ -30,8 +31,13 @@ class App extends React.Component{
               <Route path='/about' component={About} />
               <Route path='/portfolio' component={Portfolio} />
           </Switch>
+          <UserList />
+          <StockList />
         </div>
       </Router>
+
+
+
     );
   }
 }
